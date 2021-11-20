@@ -7,6 +7,11 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 button {
   cursor: pointer;
@@ -226,8 +231,10 @@ button {
   height: auto;
   margin-bottom: 28px;
 }
+ 
 
 .video-list {
+  
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -401,12 +408,7 @@ button {
   .video-thumb {
     height: 20vw;
   }
-  
 }
-@media (max-width: 870px) {
-  .input-search::placeholder{
-    color:transparent;
-  }
 
 @media (max-width: 768px) {
   .content {

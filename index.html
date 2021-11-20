@@ -11,6 +11,12 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 
+  
+  <script src="youtube-modal/index.js"></script>
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script defer src="js/temp_obj.js"></script>
+  <script defer src='js/index.js'></script>
+
 </head>
 
 <body>
@@ -21,7 +27,7 @@
       <span class="menu-line"></span>
     </button>
     <img src="img/logo.svg" alt="Youtube Logo" class="logo">
-    <form class="input-group">
+    <form class="input-group form-search">
       <input type="search" name="search" class="input-search" placeholder="Search">
       <button type="submit" class="button-search">
         <svg class="icon icon-search" width="19" height="19">
@@ -53,7 +59,7 @@
     </div>
     <div class="auth">
       <button class="auth-btn"><span class="auth-btn-text">ВОЙТИ</span></button>
-      <img src="img/avatar.jpeg" alt="Артем Исламов" class="user-avatar hide">
+      <img src="img/avatar1.jpg" alt="Лилия Сандулеса" class="user-avatar hide">
     </div>
     <!-- /.user -->
   </header>
@@ -84,7 +90,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">
+        <a href="#" class="nav-link nav-link-like">
           <svg class="icon icon-library" width="20" height="19">
             <use href="img/icons.svg#liked"></use>
           </svg>
@@ -133,7 +139,7 @@
             </a>
           </li>
           <li class="nav-item nav-item-hide">
-            <a href="#" class="nav-link">
+            <a href="#" class="nav-link nav-link-like ">
               <svg class="icon icon-liked" width="20" height="19">
                 <use href="img/icons.svg#liked"></use>
               </svg>
@@ -161,7 +167,7 @@
       </nav>
 
       <h2 class="nav-title">Subscriptions</h2>
-      <ul class="nav-menu">
+      <ul class="nav-menu subscriptions-list">
         <li class="nav-item">
           <a href="#" class="nav-link">
             <img src="img/Gussie.png" alt="Photo: Gussie Singleton" class="nav-image">
@@ -214,7 +220,7 @@
         </div>
 
 
-        <div class="glo-academy-list video-list">
+        <div class="glo-academy-list video-list ">
 
           <div class="video-card">
             <div class="video-thumb">
