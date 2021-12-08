@@ -1,14 +1,19 @@
 # you_tube
-Учебный проект Glo Academy
+## 🎬 Site for searching and watching videos. Analogue of Youtube.
 
-Выполнила: я
+training project
+### Сompleted the project: I
 
-Применены технологии:
-- html
+### Languages used:
 
-- css
-
-- адаптивная верстка
-
-Применен  язык:
+- HTML
+- CSS
 - JS
+ 
+### Libraries used:
+
+- Swiper
+
+### Technologies used:
+
+- adaptive layout
