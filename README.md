@@ -1,5 +1,5 @@
 # you_tube
-## 🎬 Site for searching and watching videos. Analogue of Youtube.
+## 🎬 Service for searching and watching videos. Analogue of Youtube.
 
 training project
 ### Сompleted the project: I
